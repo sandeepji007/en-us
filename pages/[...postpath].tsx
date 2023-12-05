@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.sarkaariresults.com/en-us/graphql` + encodeURI(path as string)
+					`https://www.sarkaariresults.com/en-us/` + encodeURI(path as string)
 				}`,
 			},
 		};
